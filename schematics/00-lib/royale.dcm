@@ -1,0 +1,59 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS138
+D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/BSS138-D.PDF
+$ENDCMP
+#
+$CMP Conn_01x04
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x02
+D Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x04
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x05
+K connector
+F ~
+$ENDCMP
+#
+$CMP Diode_Schottky
+D Schottky Diode
+$ENDCMP
+#
+$CMP Diode_Zener
+D Zener Diode
+$ENDCMP
+#
+$CMP MAX14787E
+F https://datasheets.maximintegrated.com/en/ds/MAX14784E-MAX14789E.pdf
+$ENDCMP
+#
+$CMP PCA9306
+D Dual bidirectional I2C Bus and SMBus voltage level translator
+K Dual bidirectional I2C Bus and SMBus voltage level translator
+F http://www.ti.com/lit/ds/symlink/pca9306.pdf
+$ENDCMP
+#
+$CMP PCA9600D
+D Dual bidirectional bus buffer, SO-8
+K I2C buffer
+F https://www.nxp.com/docs/en/data-sheet/PCA9600.pdf
+$ENDCMP
+#
+$CMP STM32F405RGT6
+D STM32F4 64 pin TQFP package
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf
+$ENDCMP
+#
+#End Doc Library

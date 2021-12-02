@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name royale)(type Legacy)(uri ${KIPRJMOD}/royale.lib)(options "")(descr ""))
-  (lib (name relay_spst)(type Legacy)(uri C:/Users/Harry/Documents/CUSF/Pulsar/pcb/lib/relay_spst.lib)(options "")(descr "")(disabled))
-  (lib (name cusf-kicad)(type Legacy)(uri C:/Users/Harry/Documents/CUSF/cusf-kicad/cusf-kicad.lib)(options "")(descr "")(disabled))
-)
