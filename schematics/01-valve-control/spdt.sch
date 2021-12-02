@@ -1,0 +1,302 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 28 34
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Notes Line
+	3650 4050 5650 4050
+Wire Notes Line
+	5650 4050 5650 2400
+Wire Notes Line
+	5650 2400 3650 2400
+Wire Notes Line
+	3650 2400 3650 4050
+Text Notes 5600 4000 2    50   ~ 0
+SPDT Relay Switch
+Wire Wire Line
+	5850 2650 4950 2650
+$Comp
+L royale:Relay_SPDT K?
+U 1 1 61E272E5
+P 4550 2900
+AR Path="/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61ACC4FD/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61C72EE8/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61CD6F33/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61CD6F3B/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D14AEF/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D14AF7/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D14AFF/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D14B07/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D4BB86/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D4BB8E/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61E22DCB/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61ACC4FD/61E9FC5E/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61C72EE8/61E9FC5E/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61CD6F33/61E9FC5E/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61CD6F3B/61E9FC5E/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D14AEF/61E9FC5E/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D14AF7/61E9FC5E/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D14AFF/61E9FC5E/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D14B07/61E9FC5E/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D4BB86/61E9FC5E/61E272E5" Ref="K?"  Part="1" 
+AR Path="/61D4BB8E/61E9FC5E/61E272E5" Ref="K?"  Part="1" 
+F 0 "K?" H 4650 2950 50  0000 L BNN
+F 1 "16A SPDT" H 4650 2900 50  0000 L CNN
+F 2 "" H 4550 2900 60  0000 C CNN
+F 3 "" H 4550 2900 60  0000 C CNN
+	1    4550 2900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2800 5100 2800
+Wire Wire Line
+	5100 3100 5100 3000
+Wire Wire Line
+	5100 3500 5100 3700
+$Comp
+L royale:GND #PWR?
+U 1 1 61E272EF
+P 5100 3700
+AR Path="/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61ACC4FD/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61C72EE8/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61CD6F33/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61CD6F3B/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AEF/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AF7/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AFF/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D14B07/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D4BB86/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D4BB8E/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61E22DCB/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61ACC4FD/61E9FC5E/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61C72EE8/61E9FC5E/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61CD6F33/61E9FC5E/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61CD6F3B/61E9FC5E/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AEF/61E9FC5E/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AF7/61E9FC5E/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AFF/61E9FC5E/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D14B07/61E9FC5E/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D4BB86/61E9FC5E/61E272EF" Ref="#PWR?"  Part="1" 
+AR Path="/61D4BB8E/61E9FC5E/61E272EF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4970 3740 50  0001 L CNN
+F 1 "GND" H 5100 3600 50  0000 C CNN
+F 2 "" H 5100 3700 50  0001 C CNN
+F 3 "" H 5100 3700 50  0001 C CNN
+	1    5100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L royale:GND #PWR?
+U 1 1 61E272F5
+P 4700 3700
+AR Path="/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61ACC4FD/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61C72EE8/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61CD6F33/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61CD6F3B/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AEF/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AF7/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AFF/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D14B07/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D4BB86/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D4BB8E/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61E22DCB/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61ACC4FD/61E9FC5E/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61C72EE8/61E9FC5E/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61CD6F33/61E9FC5E/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61CD6F3B/61E9FC5E/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AEF/61E9FC5E/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AF7/61E9FC5E/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D14AFF/61E9FC5E/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D14B07/61E9FC5E/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D4BB86/61E9FC5E/61E272F5" Ref="#PWR?"  Part="1" 
+AR Path="/61D4BB8E/61E9FC5E/61E272F5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4570 3740 50  0001 L CNN
+F 1 "GND" H 4700 3600 50  0000 C CNN
+F 2 "" H 4700 3700 50  0001 C CNN
+F 3 "" H 4700 3700 50  0001 C CNN
+	1    4700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3550 4700 3700
+Wire Wire Line
+	4700 3300 4700 3450
+$Comp
+L royale:R R?
+U 1 1 61E272FD
+P 4700 3450
+AR Path="/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61ACC4FD/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61C72EE8/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61CD6F33/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61CD6F3B/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D14AEF/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D14AF7/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D14AFF/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D14B07/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D4BB86/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D4BB8E/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61E22DCB/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61ACC4FD/61E9FC5E/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61C72EE8/61E9FC5E/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61CD6F33/61E9FC5E/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61CD6F3B/61E9FC5E/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D14AEF/61E9FC5E/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D14AF7/61E9FC5E/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D14AFF/61E9FC5E/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D14B07/61E9FC5E/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D4BB86/61E9FC5E/61E272FD" Ref="R?"  Part="1" 
+AR Path="/61D4BB8E/61E9FC5E/61E272FD" Ref="R?"  Part="1" 
+F 0 "R?" V 4700 3500 50  0000 L CNN
+F 1 "110k" V 4750 3500 50  0000 L TNN
+F 2 "" H 4700 3450 50  0001 C CNN
+F 3 "" H 4700 3450 50  0001 C CNN
+	1    4700 3450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5100 3000 5000 3000
+Wire Wire Line
+	5000 3000 5000 2900
+Wire Wire Line
+	5000 2900 4950 2900
+Connection ~ 5100 2800
+Connection ~ 5100 3000
+$Comp
+L royale:BSS138 Q?
+U 1 1 61E27309
+P 5000 3300
+AR Path="/61ACC4FD/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61C72EE8/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61CD6F33/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61CD6F3B/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D14AEF/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D14AF7/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D14AFF/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D14B07/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D4BB86/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D4BB8E/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61E22DCB/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61ACC4FD/61E9FC5E/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61C72EE8/61E9FC5E/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61CD6F33/61E9FC5E/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61CD6F3B/61E9FC5E/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D14AEF/61E9FC5E/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D14AF7/61E9FC5E/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D14AFF/61E9FC5E/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D14B07/61E9FC5E/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D4BB86/61E9FC5E/61E27309" Ref="Q?"  Part="1" 
+AR Path="/61D4BB8E/61E9FC5E/61E27309" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5200 3200 50  0000 L CNN
+F 1 "BSS138" H 5200 3150 50  0000 L TNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 3225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 5000 3300 50  0001 L CNN
+	1    5000 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 3450 3300 0    50   Input ~ 0
+EN
+$Comp
+L royale:Diode_Schottky D?
+U 1 1 61E27310
+P 5100 2850
+AR Path="/61ACC4FD/61E27310" Ref="D?"  Part="1" 
+AR Path="/61C72EE8/61E27310" Ref="D?"  Part="1" 
+AR Path="/61CD6F33/61E27310" Ref="D?"  Part="1" 
+AR Path="/61CD6F3B/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D14AEF/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D14AF7/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D14AFF/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D14B07/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D4BB86/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D4BB8E/61E27310" Ref="D?"  Part="1" 
+AR Path="/61E22DCB/61E27310" Ref="D?"  Part="1" 
+AR Path="/61ACC4FD/61E9FC5E/61E27310" Ref="D?"  Part="1" 
+AR Path="/61C72EE8/61E9FC5E/61E27310" Ref="D?"  Part="1" 
+AR Path="/61CD6F33/61E9FC5E/61E27310" Ref="D?"  Part="1" 
+AR Path="/61CD6F3B/61E9FC5E/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D14AEF/61E9FC5E/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D14AF7/61E9FC5E/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D14AFF/61E9FC5E/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D14B07/61E9FC5E/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D4BB86/61E9FC5E/61E27310" Ref="D?"  Part="1" 
+AR Path="/61D4BB8E/61E9FC5E/61E27310" Ref="D?"  Part="1" 
+F 0 "D?" V 5150 2950 50  0000 L CNN
+F 1 "Diode_Schottky" H 5150 2780 50  0001 C CNN
+F 2 "" H 5050 2820 50  0001 C CNN
+F 3 "" H 5150 2920 50  0001 C CNN
+	1    5100 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 2950 5100 3000
+Wire Wire Line
+	5100 2800 5100 2850
+Connection ~ 4700 3300
+Wire Wire Line
+	4700 3300 4800 3300
+Wire Wire Line
+	4600 3300 4700 3300
+Wire Wire Line
+	3450 3300 4500 3300
+$Comp
+L royale:R R?
+U 1 1 61E2731C
+P 4500 3300
+AR Path="/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61ACC4FD/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61C72EE8/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61CD6F33/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61CD6F3B/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D14AEF/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D14AF7/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D14AFF/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D14B07/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D4BB86/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D4BB8E/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61E22DCB/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61ACC4FD/61E9FC5E/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61C72EE8/61E9FC5E/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61CD6F33/61E9FC5E/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61CD6F3B/61E9FC5E/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D14AEF/61E9FC5E/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D14AF7/61E9FC5E/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D14AFF/61E9FC5E/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D14B07/61E9FC5E/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D4BB86/61E9FC5E/61E2731C" Ref="R?"  Part="1" 
+AR Path="/61D4BB8E/61E9FC5E/61E2731C" Ref="R?"  Part="1" 
+F 0 "R?" H 4550 3450 50  0000 C CNN
+F 1 "100" H 4550 3350 50  0000 C BNN
+F 2 "" H 4500 3300 50  0001 C CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+	1    4500 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2800 5850 2800
+Wire Wire Line
+	3450 2550 4150 2550
+Wire Wire Line
+	3450 2750 4150 2750
+Text HLabel 5850 2650 2    50   Output ~ 0
+V_OUT
+Text HLabel 3450 2550 0    50   Input ~ 0
+V_1
+Text HLabel 3450 2750 0    50   Input ~ 0
+V_2
+Text HLabel 5850 2800 2    50   Input ~ 0
+V_SW
+$EndSCHEMATC
