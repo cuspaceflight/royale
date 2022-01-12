@@ -548,7 +548,7 @@
     (uuid 6a7410ac-6f2d-41b6-9ae5-119b71f0d7e5)
     (property "Reference" "J103" (id 0) (at 98.425 110.49 0))
     (property "Value" "EN" (id 1) (at 98.425 113.03 0))
-    (property "Footprint" "" (id 2) (at 98.425 121.92 0)
+    (property "Footprint" "royale:Molex_Nano-Fit_105313-xx05_1x05_P2.50mm_Horizontal" (id 2) (at 98.425 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 98.425 121.92 0)
@@ -814,7 +814,7 @@
       (reference "J102") (unit 1) (value "PWR") (footprint "royale:Molex_Nano-Fit_105313-xx04_1x04_P2.50mm_Horizontal")
     )
     (path "/6a7410ac-6f2d-41b6-9ae5-119b71f0d7e5"
-      (reference "J103") (unit 1) (value "EN") (footprint "")
+      (reference "J103") (unit 1) (value "EN") (footprint "royale:Molex_Nano-Fit_105313-xx05_1x05_P2.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061acc4fd/f741d2a6-3cfd-425c-b5b1-c8b6c7563112"
       (reference "J201") (unit 1) (value "VALVE") (footprint "royale:Molex_Nano-Fit_105313-xx04_1x04_P2.50mm_Horizontal")
