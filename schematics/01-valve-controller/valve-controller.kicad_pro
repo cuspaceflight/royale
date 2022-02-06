@@ -347,7 +347,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "valve-control.kicad_pro",
+    "filename": "valve-controller.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -387,7 +387,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 100,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -436,6 +436,30 @@
     [
       "00000000-0000-0000-0000-000061e87e9f",
       "24v Arm"
+    ],
+    [
+      "4512e1de-1ae8-4271-aab5-cfad75ab4cbf",
+      "Servo Controller"
+    ],
+    [
+      "9a39d912-66be-4e0e-a57c-069ae7231144",
+      "FET Driver"
+    ],
+    [
+      "893a56c7-8294-48ea-b5bb-cba873339498",
+      "FET Driver1"
+    ],
+    [
+      "053c74cd-ece6-4066-94c5-246255530cfc",
+      "FET Driver2"
+    ],
+    [
+      "ab949492-dd52-4851-9f8b-af49d8fb82b2",
+      "FET Driver3"
+    ],
+    [
+      "536547ae-866b-4e7e-8e94-2e28f46c212f",
+      "FET Driver4"
     ]
   ],
   "text_variables": {}
