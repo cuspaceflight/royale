@@ -3950,19 +3950,19 @@
       (reference "C15") (unit 1) (value "100n") (footprint "royale:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000628c61c2/00000000-0000-0000-0000-000061a5eef5"
-      (reference "C16") (unit 1) (value "100n") (footprint "Capacitor_SMD:CP_Elec_3x5.3")
+      (reference "C16") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000626d386e/00000000-0000-0000-0000-000061a5eef5"
-      (reference "C17") (unit 1) (value "100n") (footprint "Capacitor_SMD:CP_Elec_3x5.3")
+      (reference "C17") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000062888038/00000000-0000-0000-0000-000061a5eef5"
-      (reference "C18") (unit 1) (value "100n") (footprint "Capacitor_SMD:CP_Elec_3x5.3")
+      (reference "C18") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628b0a3e/00000000-0000-0000-0000-000061a5eef5"
-      (reference "C19") (unit 1) (value "100n") (footprint "Capacitor_SMD:CP_Elec_3x5.3")
+      (reference "C19") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628b0a46/00000000-0000-0000-0000-000061a5eef5"
-      (reference "C20") (unit 1) (value "100n") (footprint "Capacitor_SMD:CP_Elec_3x5.3")
+      (reference "C20") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000626d3037/00000000-0000-0000-0000-000062708e17"
       (reference "C21") (unit 1) (value "15p") (footprint "royale:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
@@ -3982,35 +3982,20 @@
     (path "/00000000-0000-0000-0000-000062735b30/00000000-0000-0000-0000-00006330dc76"
       (reference "C26") (unit 1) (value "100p") (footprint "royale:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-0000628c61c2/00000000-0000-0000-0000-000061a12dfc"
-      (reference "D1") (unit 1) (value "BAT54A") (footprint "CUSF:BAT45ATA")
+    (path "/00000000-0000-0000-0000-0000628c61c2/329ba30f-e553-429f-91ff-34fe3180484b"
+      (reference "D1") (unit 1) (value "BAT54A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-0000628c61c2/00000000-0000-0000-0000-000061a1aaaf"
-      (reference "D3") (unit 1) (value "BAT54A") (footprint "CUSF:BAT45ATA")
+    (path "/00000000-0000-0000-0000-0000626d386e/329ba30f-e553-429f-91ff-34fe3180484b"
+      (reference "D2") (unit 1) (value "BAT54A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-0000626d386e/00000000-0000-0000-0000-000061a12dfc"
-      (reference "D5") (unit 1) (value "BAT54A") (footprint "CUSF:BAT45ATA")
+    (path "/00000000-0000-0000-0000-000062888038/329ba30f-e553-429f-91ff-34fe3180484b"
+      (reference "D3") (unit 1) (value "BAT54A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-0000626d386e/00000000-0000-0000-0000-000061a1aaaf"
-      (reference "D7") (unit 1) (value "BAT54A") (footprint "CUSF:BAT45ATA")
+    (path "/00000000-0000-0000-0000-0000628b0a3e/329ba30f-e553-429f-91ff-34fe3180484b"
+      (reference "D4") (unit 1) (value "BAT54A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-000062888038/00000000-0000-0000-0000-000061a12dfc"
-      (reference "D9") (unit 1) (value "BAT54A") (footprint "CUSF:BAT45ATA")
-    )
-    (path "/00000000-0000-0000-0000-000062888038/00000000-0000-0000-0000-000061a1aaaf"
-      (reference "D11") (unit 1) (value "BAT54A") (footprint "CUSF:BAT45ATA")
-    )
-    (path "/00000000-0000-0000-0000-0000628b0a3e/00000000-0000-0000-0000-000061a12dfc"
-      (reference "D13") (unit 1) (value "BAT54A") (footprint "CUSF:BAT45ATA")
-    )
-    (path "/00000000-0000-0000-0000-0000628b0a3e/00000000-0000-0000-0000-000061a1aaaf"
-      (reference "D15") (unit 1) (value "BAT54A") (footprint "CUSF:BAT45ATA")
-    )
-    (path "/00000000-0000-0000-0000-0000628b0a46/00000000-0000-0000-0000-000061a12dfc"
-      (reference "D17") (unit 1) (value "BAT54A") (footprint "CUSF:BAT45ATA")
-    )
-    (path "/00000000-0000-0000-0000-0000628b0a46/00000000-0000-0000-0000-000061a1aaaf"
-      (reference "D19") (unit 1) (value "BAT54A") (footprint "CUSF:BAT45ATA")
+    (path "/00000000-0000-0000-0000-0000628b0a46/329ba30f-e553-429f-91ff-34fe3180484b"
+      (reference "D5") (unit 1) (value "BAT54A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00006210427a"
       (reference "J1") (unit 1) (value "PWR") (footprint "")
@@ -4118,64 +4103,64 @@
       (reference "R19") (unit 1) (value "4k7") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000628c61c2/00000000-0000-0000-0000-000061a1c307"
-      (reference "R20") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R20") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628c61c2/00000000-0000-0000-0000-000061a1be3c"
-      (reference "R21") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R21") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628c61c2/00000000-0000-0000-0000-000061a1c730"
-      (reference "R22") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R22") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628c61c2/00000000-0000-0000-0000-000061a1d18c"
-      (reference "R23") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R23") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000626d386e/00000000-0000-0000-0000-000061a1c307"
-      (reference "R24") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R24") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000626d386e/00000000-0000-0000-0000-000061a1be3c"
-      (reference "R25") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R25") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000626d386e/00000000-0000-0000-0000-000061a1c730"
-      (reference "R26") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R26") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000626d386e/00000000-0000-0000-0000-000061a1d18c"
-      (reference "R27") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R27") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000062888038/00000000-0000-0000-0000-000061a1c307"
-      (reference "R28") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R28") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000062888038/00000000-0000-0000-0000-000061a1be3c"
-      (reference "R29") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R29") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000062888038/00000000-0000-0000-0000-000061a1c730"
-      (reference "R30") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R30") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000062888038/00000000-0000-0000-0000-000061a1d18c"
-      (reference "R31") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R31") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628b0a3e/00000000-0000-0000-0000-000061a1c307"
-      (reference "R32") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R32") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628b0a3e/00000000-0000-0000-0000-000061a1be3c"
-      (reference "R33") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R33") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628b0a3e/00000000-0000-0000-0000-000061a1c730"
-      (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628b0a3e/00000000-0000-0000-0000-000061a1d18c"
-      (reference "R35") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R35") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628b0a46/00000000-0000-0000-0000-000061a1c307"
-      (reference "R36") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R36") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628b0a46/00000000-0000-0000-0000-000061a1be3c"
-      (reference "R37") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R37") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628b0a46/00000000-0000-0000-0000-000061a1c730"
-      (reference "R38") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R38") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628b0a46/00000000-0000-0000-0000-000061a1d18c"
-      (reference "R39") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R39") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000619d1fb2"
       (reference "U1") (unit 1) (value "MAX604") (footprint "Strix:SOIC-8_3.9x4.9mm_P1.27mm")
