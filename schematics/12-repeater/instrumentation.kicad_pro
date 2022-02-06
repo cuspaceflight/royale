@@ -238,7 +238,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "repeater.kicad_pro",
+    "filename": "instrumentation.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -290,7 +290,7 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.25,
-      "pin_symbol_size": 0.0,
+      "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
@@ -299,6 +299,15 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -308,8 +317,40 @@
   },
   "sheets": [
     [
-      "5b2b5c7d-f943-4634-9f0a-e9561705c49d",
+      "feb26ecb-9193-46ea-a41b-d09305bf0a3e",
       ""
+    ],
+    [
+      "00000000-0000-0000-0000-0000628c61c2",
+      "High-Rate PT"
+    ],
+    [
+      "00000000-0000-0000-0000-0000626d3037",
+      "Load Cell 1"
+    ],
+    [
+      "00000000-0000-0000-0000-00006271d482",
+      "Load Cell 2"
+    ],
+    [
+      "00000000-0000-0000-0000-000062735b30",
+      "Load Cell 3"
+    ],
+    [
+      "00000000-0000-0000-0000-0000626d386e",
+      "Low-Rate PT 1"
+    ],
+    [
+      "00000000-0000-0000-0000-000062888038",
+      "Low-Rate PT 2"
+    ],
+    [
+      "00000000-0000-0000-0000-0000628b0a3e",
+      "Low-Rate PT 3"
+    ],
+    [
+      "00000000-0000-0000-0000-0000628b0a46",
+      "Low-Rate PT 4"
     ]
   ],
   "text_variables": {}
