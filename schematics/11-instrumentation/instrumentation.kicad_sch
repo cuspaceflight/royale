@@ -4031,19 +4031,19 @@
       (reference "J11") (unit 1) (value "HX711") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000628c61c2/91b1515f-01d7-467f-9976-fa4a3565e617"
-      (reference "J12") (unit 1) (value "PSG01571") (footprint "")
+      (reference "J12") (unit 1) (value "PSG01571") (footprint "royale:Mini-Din-Through-Hole")
     )
     (path "/00000000-0000-0000-0000-0000626d386e/91b1515f-01d7-467f-9976-fa4a3565e617"
-      (reference "J13") (unit 1) (value "PSG01571") (footprint "")
+      (reference "J13") (unit 1) (value "PSG01571") (footprint "royale:Mini-Din-Through-Hole")
     )
     (path "/00000000-0000-0000-0000-000062888038/91b1515f-01d7-467f-9976-fa4a3565e617"
-      (reference "J14") (unit 1) (value "PSG01571") (footprint "")
+      (reference "J14") (unit 1) (value "PSG01571") (footprint "royale:Mini-Din-Through-Hole")
     )
     (path "/00000000-0000-0000-0000-0000628b0a3e/91b1515f-01d7-467f-9976-fa4a3565e617"
-      (reference "J15") (unit 1) (value "PSG01571") (footprint "")
+      (reference "J15") (unit 1) (value "PSG01571") (footprint "royale:Mini-Din-Through-Hole")
     )
     (path "/00000000-0000-0000-0000-0000628b0a46/91b1515f-01d7-467f-9976-fa4a3565e617"
-      (reference "J16") (unit 1) (value "PSG01571") (footprint "")
+      (reference "J16") (unit 1) (value "PSG01571") (footprint "royale:Mini-Din-Through-Hole")
     )
     (path "/00000000-0000-0000-0000-000061781ee4"
       (reference "R1") (unit 1) (value "100") (footprint "royale:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
