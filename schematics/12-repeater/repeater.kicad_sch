@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "PROJECT ROYALE INSTRUMENTATION")
-    (date "2021-11-26")
+    (title "PROJECT ROYALE REPEATER")
+    (date "2022-02-08")
     (rev "2.1")
     (company "Cambridge University Spaceflight")
     (comment 1 "Drawn By Henry Franks")
@@ -1114,7 +1114,7 @@
     (uuid 92f063a3-7cce-4a96-8a3a-cf5767f700c6)
   )
 
-  (symbol (lib_id "royale:PCA9600D") (at 130.81 99.06 0)
+  (symbol (lib_id "royale:PCA9600D") (at 130.81 99.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a0d3e3)
     (property "Reference" "U6" (id 0) (at 132.08 87.63 0)
@@ -1139,7 +1139,7 @@
     (pin "8" (uuid fbca7d5b-4a19-4f46-9697-74b3068179aa))
   )
 
-  (symbol (lib_id "royale:R") (at 111.76 91.44 270)
+  (symbol (lib_id "royale:R") (at 111.76 91.44 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a1be3c)
     (property "Reference" "R25" (id 0) (at 113.03 91.44 90)
@@ -1158,7 +1158,7 @@
     (pin "2" (uuid 96815f61-f3f5-43c2-b68f-856577233f16))
   )
 
-  (symbol (lib_id "royale:R") (at 104.14 91.44 270)
+  (symbol (lib_id "royale:R") (at 104.14 91.44 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a1c307)
     (property "Reference" "R24" (id 0) (at 105.41 91.44 90)
@@ -1177,7 +1177,7 @@
     (pin "2" (uuid de7d8275-fd45-47d5-ae9a-4b0c51b81f57))
   )
 
-  (symbol (lib_id "royale:R") (at 146.05 88.9 270)
+  (symbol (lib_id "royale:R") (at 146.05 88.9 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a1c730)
     (property "Reference" "R26" (id 0) (at 147.32 88.9 90)
@@ -1196,7 +1196,7 @@
     (pin "2" (uuid 18b6dcb6-5ab3-481b-b998-33e8cf6d281f))
   )
 
-  (symbol (lib_id "royale:R") (at 161.29 88.9 270)
+  (symbol (lib_id "royale:R") (at 161.29 88.9 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a1d18c)
     (property "Reference" "R27" (id 0) (at 162.56 88.9 90)
@@ -1215,7 +1215,7 @@
     (pin "2" (uuid 539dec9e-2c45-4201-ab13-cbbbab8fc31b))
   )
 
-  (symbol (lib_id "royale:12v") (at 130.81 82.55 0)
+  (symbol (lib_id "royale:12v") (at 130.81 82.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a2516b)
     (property "Reference" "#PWR028" (id 0) (at 130.81 79.756 0)
@@ -1231,7 +1231,7 @@
     (pin "1" (uuid 00c9c1c9-df78-4bf8-a378-9edee7dafbe3))
   )
 
-  (symbol (lib_id "cusf-kicad:GND") (at 130.81 114.3 0)
+  (symbol (lib_id "cusf-kicad:GND") (at 130.81 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a2a4f9)
     (property "Reference" "#PWR029" (id 0) (at 127.508 113.284 0)
@@ -1247,7 +1247,7 @@
     (pin "1" (uuid b7340f23-0eaa-48ae-aea8-b5b53a0ae99a))
   )
 
-  (symbol (lib_id "royale:GND") (at 203.2 104.14 0)
+  (symbol (lib_id "royale:GND") (at 203.2 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a2d29d)
     (property "Reference" "#PWR051" (id 0) (at 199.898 103.124 0)
@@ -1263,7 +1263,7 @@
     (pin "1" (uuid 1cd85cce-d94a-4a92-8af2-23d3a2b66793))
   )
 
-  (symbol (lib_id "royale:GND") (at 185.42 104.14 0)
+  (symbol (lib_id "royale:GND") (at 185.42 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a2d2a3)
     (property "Reference" "#PWR049" (id 0) (at 182.118 103.124 0)
@@ -1279,7 +1279,7 @@
     (pin "1" (uuid 47c4da32-a886-4a7a-86ef-2f3db3797d7d))
   )
 
-  (symbol (lib_id "royale:Conn_02x04") (at 193.04 96.52 0)
+  (symbol (lib_id "royale:Conn_02x04") (at 193.04 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a2d2be)
     (property "Reference" "J5" (id 0) (at 194.31 87.63 0))
@@ -1303,7 +1303,7 @@
     (pin "8" (uuid bf67f245-1714-4d39-b76d-53f1523ab5f8))
   )
 
-  (symbol (lib_id "royale:3v3") (at 104.14 82.55 0)
+  (symbol (lib_id "royale:3v3") (at 104.14 82.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a3f116)
     (property "Reference" "#PWR027" (id 0) (at 104.14 79.756 0)
@@ -1319,7 +1319,7 @@
     (pin "1" (uuid 4c38e5ef-0105-4756-a059-34a9c3247d1f))
   )
 
-  (symbol (lib_id "royale:C") (at 173.99 106.68 90) (mirror x)
+  (symbol (lib_id "royale:C") (at 173.99 106.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a5eef5)
     (property "Reference" "C17" (id 0) (at 172.72 106.68 90)
@@ -1338,7 +1338,7 @@
     (pin "2" (uuid d2683b99-bb18-4d41-a0c5-df26e16e4210))
   )
 
-  (symbol (lib_id "royale:12v") (at 185.42 91.44 0)
+  (symbol (lib_id "royale:12v") (at 185.42 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a8760f)
     (property "Reference" "#PWR048" (id 0) (at 185.42 88.646 0)
@@ -1354,7 +1354,7 @@
     (pin "1" (uuid 8afefa03-006b-4e40-b19e-6596c7cc472e))
   )
 
-  (symbol (lib_id "royale:12v") (at 203.2 91.44 0)
+  (symbol (lib_id "royale:12v") (at 203.2 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a879ee)
     (property "Reference" "#PWR050" (id 0) (at 203.2 88.646 0)
@@ -1370,7 +1370,7 @@
     (pin "1" (uuid 5bd90e77-727e-49e2-881e-09f4ce3768d4))
   )
 
-  (symbol (lib_id "Diode:BAT54A") (at 151.13 106.68 0)
+  (symbol (lib_id "Diode:BAT54A") (at 151.13 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 329ba30f-e553-429f-91ff-34fe3180484b)
     (property "Reference" "D2" (id 0) (at 151.13 100.33 0))
@@ -1386,7 +1386,7 @@
     (pin "3" (uuid 62f8345d-2c6f-4eb0-b1d8-1431a205e068))
   )
 
-  (symbol (lib_id "Connector:Mini-DIN-4") (at 81.28 111.76 0)
+  (symbol (lib_id "Connector:Mini-DIN-4") (at 81.28 111.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 91b1515f-01d7-467f-9976-fa4a3565e617)
     (property "Reference" "J13" (id 0) (at 88.9 105.41 0))
@@ -1403,7 +1403,7 @@
     (pin "4" (uuid 560e8d50-2d6d-48e0-be72-f7b892f3360a))
   )
 
-  (symbol (lib_id "cusf-kicad:GND") (at 90.17 113.03 0)
+  (symbol (lib_id "cusf-kicad:GND") (at 90.17 113.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9d167c4c-9461-46c4-b3b1-4f3c97404f84)
     (property "Reference" "#PWR0103" (id 0) (at 86.868 112.014 0)
@@ -1419,7 +1419,7 @@
     (pin "1" (uuid 36febe15-e9d5-4d07-a95c-8f0bdb102c5d))
   )
 
-  (symbol (lib_id "royale:12v") (at 73.66 115.57 180)
+  (symbol (lib_id "royale:12v") (at 73.66 115.57 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ddaa02b0-5d92-43df-8cef-df7e364db8e9)
     (property "Reference" "#PWR0104" (id 0) (at 73.66 118.364 0)
@@ -1433,5 +1433,66 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5b71b94f-027c-43ff-ab43-957e9be68eba))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-000061a3f116"
+      (reference "#PWR027") (unit 1) (value "3v3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061a2516b"
+      (reference "#PWR028") (unit 1) (value "12v") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061a2a4f9"
+      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061a8760f"
+      (reference "#PWR048") (unit 1) (value "12v") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061a2d2a3"
+      (reference "#PWR049") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061a879ee"
+      (reference "#PWR050") (unit 1) (value "12v") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061a2d29d"
+      (reference "#PWR051") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9d167c4c-9461-46c4-b3b1-4f3c97404f84"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ddaa02b0-5d92-43df-8cef-df7e364db8e9"
+      (reference "#PWR0104") (unit 1) (value "12v") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061a5eef5"
+      (reference "C17") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/329ba30f-e553-429f-91ff-34fe3180484b"
+      (reference "D2") (unit 1) (value "BAT54A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/00000000-0000-0000-0000-000061a2d2be"
+      (reference "J5") (unit 1) (value "RJHSE-5380") (footprint "Connector_RJ:RJ45_Amphenol_RJHSE5380")
+    )
+    (path "/91b1515f-01d7-467f-9976-fa4a3565e617"
+      (reference "J13") (unit 1) (value "PSG01571") (footprint "royale:Mini-Din-Through-Hole")
+    )
+    (path "/00000000-0000-0000-0000-000061a1c307"
+      (reference "R24") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061a1be3c"
+      (reference "R25") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061a1c730"
+      (reference "R26") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061a1d18c"
+      (reference "R27") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061a0d3e3"
+      (reference "U6") (unit 1) (value "PCA9600D") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
   )
 )
