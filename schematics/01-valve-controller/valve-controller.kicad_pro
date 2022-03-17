@@ -440,6 +440,26 @@
     [
       "4512e1de-1ae8-4271-aab5-cfad75ab4cbf",
       "Servo Controller"
+    ],
+    [
+      "f7da4822-fd61-4e64-8041-7bda7259560b",
+      "Valve output DC"
+    ],
+    [
+      "315cc8b8-91a5-48ab-9789-390f34a7043c",
+      "GPIO out"
+    ],
+    [
+      "6f95e64f-f82a-4e23-8499-332095730cc9",
+      "SPDT Relay"
+    ],
+    [
+      "6aed2490-933c-4ca0-adbb-34b5a7cf35eb",
+      "SPDT Relay1"
+    ],
+    [
+      "b2eae30c-bbb6-408d-8379-adcf2a6afdda",
+      "SPDT Relay2"
     ]
   ],
   "text_variables": {}
